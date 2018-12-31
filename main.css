@@ -17,7 +17,69 @@ h4{
 }
 
 .topnav{
-	
+	background-color: black;
+	overflow: hidden;
+}
+
+.topnav a{
+	color: white;
+	font-size: 1.1rem;
+	float: left;
+	padding: 1rem 1rem;
+	text-align: center;
+	text-decoration: none;
+}
+
+.topnav a:hover{
+	background-color: white;
+	color: black;
+}
+
+.dropdown{
+	float: left;
+	overflow: hidden;
+}
+
+.dropdown .dropbtn{
+	background-color: inherit;
+	border:none;
+	color: white;
+	font-family: inherit; /*important for vertical align on mobile*/
+	font-size: 1.1rem;
+	margin: 0; /*important for vertical align on mobile*/
+	outline: none;
+	padding: 1rem 1rem;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn{
+	background-color: white;
+	color: black;
+}
+
+.dropdown-content {
+	background-color: white;
+	display:none;
+	min-width: 160px;
+	position: absolute;
+}
+
+.dropdown-content a{
+	color:black;
+	display: block;
+	float: none;
+	padding: 1rem 1rem;
+	text-align: left;
+	text-decoration: none;
+}
+
+/*.dropdown-content a:hover{
+	background-color:white;
+}
+might not need it if background color of dropdown button stays white */
+
+/*show the dropdown menu on hover*/
+.dropdown:hover .dropdown-content{
+	display:block;
 }
 
 .PageTitle{
