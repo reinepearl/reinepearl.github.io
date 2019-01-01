@@ -1,6 +1,6 @@
 /*GENERAL SETTINGS*/
 body{
-	background-color: rgb(156,195,237); /*light blue color*/
+	background-color: rgb(163,217,237); /*light blue color*/
 }
 
 p{
@@ -23,6 +23,7 @@ h4{
 
 .WebsiteHeader{
 	color:black;
+	text-align: center;
 }
 
 /*TOP NAVGATION*/
@@ -56,7 +57,7 @@ h4{
 
 .dropdown .dropbtn{
 	background-color: inherit;
-	border:none;
+	border: none;
 	color: white;
 	font-family: inherit; /*important for vertical align on mobile*/
 	font-size: 1.1rem;
@@ -72,6 +73,8 @@ h4{
 
 .dropdown-content {
 	background-color: white;
+	border-style:groove;
+		border-color: rgb(163,217,237);
 	display:none;
 	min-width: 160px;
 	position: absolute;
@@ -81,7 +84,7 @@ h4{
 	color:black;
 	display: block;
 	float: none;
-	padding: 1rem 1rem;
+	padding: 1rem 0.5rem;
 	text-align: left;
 	text-decoration: none;
 }
