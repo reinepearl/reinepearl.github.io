@@ -98,7 +98,7 @@ might not need it if background color of dropdown button stays white */
 	display: center;
 	font-size: 100%;
 	margin: auto;
-	padding: 2rem;
+	padding: 0.5rem 1rem 2rem 3rem;
 	overflow:auto;
 	text-align:left;
 	
@@ -120,12 +120,15 @@ might not need it if background color of dropdown button stays white */
 }
 .OriginalWorksBlock{
 	background-color: white;
+	color: black;
 	margin: 1rem;
-	padding: 1.5rem;
+	padding: 0.3rem 1.5rem 2rem 1.5rem;
 }
 
 .TranslationsBlock{
 	background-color: white;
+	color: black;
 	margin: 1rem;
-	padding: 1.5rem;
+	padding: 0.3rem 1.5rem 2rem 1.5rem;
+	text-align: center;
 }
