@@ -139,3 +139,9 @@ might not need it if background color of dropdown button stays white */
 	padding: 0.3rem 1.5rem 2rem 1.5rem;
 	text-align: center;
 }
+
+.TranslationsBlock ul{
+	list-style-position:none;
+	margin: 0.5rem 1rem;
+	padding: 0;
+}
