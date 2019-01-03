@@ -1,29 +1,41 @@
 /*GENERAL SETTINGS*/
 body{
 	background-color: rgb(163,217,237); /*light blue color*/
+	$body-bg: rgb(163,217,237);
 }
 
 p{
-	font-size: 100%;
+	font-size: 1.1vw;
 }
 
 h1{
-	font-size: 3rem;
+	font-size: 3.4vw;
 }
 
 h2{}
 
 h3{
-	font-size: 1.5rem;
+	font-size: 2.6vw;
 }
 
 h4{
-	font-size: 1.3rem;
+	font-size: 1.5vw;
 }
 
 .WebsiteHeader{
 	color:black;
 	text-align: center;
+}
+
+@viewport{
+	width: device-width;
+	zoom: 1.0;
+}
+
+@media only screen and (max-width:900px){
+	body{
+		background-color:white;
+	}
 }
 
 /*TOP NAVGATION*/
@@ -74,7 +86,7 @@ h4{
 .dropdown-content {
 	background-color: white;
 	border-style:groove;
-		border-color: rgb(163,217,237);
+		border-color: rgb(163,217,237); /*blue border*/
 	display:none;
 	min-width: 160px;
 	position: absolute;
@@ -102,7 +114,7 @@ might not need it if background color of dropdown button stays white */
 /*PAGE CONTENT*/
 .PageContent{
 	background-color: white;
-	display: center;
+	display: left;
 	font-size: 100%;
 	margin: auto;
 	padding: 0.5rem 1rem 2rem 3rem;
@@ -112,11 +124,11 @@ might not need it if background color of dropdown button stays white */
 }
 
 .PageTitle{
-	font-size: 2.5rem;
+	font-size: 2.3vw;
 }
 
-.PageBody{
-	
+.PageBody ul{
+	font-size: 1.1vw;
 }
 
 /*the things between content and footer*/
