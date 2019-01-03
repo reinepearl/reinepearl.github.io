@@ -137,9 +137,12 @@ might not need it if background color of dropdown button stays white */
 
 /*the things between content and footer*/
 .FooterNav{
-	display:flex;
-		flex-wrap:wrap;
-		justify-content: center;
+	display:block;
+		/*flex-wrap:wrap;
+		justify-content: center;*/
+	max-width: 25%;
+	margin: 0 auto;
+	
 }
 .OriginalWorksBlock, .TranslationsBlock{
 	background-color: white;
