@@ -1,54 +1,55 @@
 /*GENERAL SETTINGS*/
 body{
-	background-color: rgb(163,217,237); /*light blue color*/
+	background-color: rgb(163,217,237); /*light blue color*/ 
 	$body-bg: rgb(163,217,237);
+	width: 99%;
 }
 
-p{
+p, li{
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
 	font-size: 1.1vw;
 }
 
 h1{
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
 	font-size: 3.4vw;
 }
 
 h2{}
 
 h3{
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
 	font-size: 2.6vw;
 }
 
 h4{
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
 	font-size: 1.5vw;
 }
 
 .WebsiteHeader{
 	color:black;
+	max-width: 75%;
+	margin: 0 auto;
+	padding: 0;
 	text-align: center;
 }
 
-@viewport{
-	width: device-width;
-	zoom: 1.0;
-}
-
-@media only screen and (max-width:900px){
-	body{
-		background-color:white;
-	}
-}
 
 /*TOP NAVGATION*/
 .topnav{
-	background-color: black; /*rgb(222,156,237); light purple color*/
+	background-color: black; 
 	display:flex;
 		flexwrap: wrap;
 		justify-content: center;
-	overflow: hidden;
+	overflow: auto;
+	width: 54.5%;
+	margin: 0 auto;
 }
 
 .topnav a{
 	color: white;
+	/*display: inline;*/
 	display: inline;
 	font-size: 1.1rem;
 	float: left;
@@ -66,7 +67,6 @@ h4{
 	float: left;
 	overflow: hidden;
 }
-
 .dropdown .dropbtn{
 	background-color: inherit;
 	border: none;
@@ -116,11 +116,11 @@ might not need it if background color of dropdown button stays white */
 	background-color: white;
 	display: left;
 	font-size: 100%;
-	margin: auto;
+	margin: 0 auto;
+	max-width: 50%;
 	padding: 0.5rem 1rem 2rem 3rem;
 	overflow:auto;
 	text-align:left;
-	
 }
 
 .PageTitle{
@@ -137,23 +137,30 @@ might not need it if background color of dropdown button stays white */
 		flex-wrap:wrap;
 		justify-content: center;
 }
-.OriginalWorksBlock{
+.OriginalWorksBlock, .TranslationsBlock{
 	background-color: white;
 	color: black;
-	margin: 1rem;
-	padding: 0.3rem 1.5rem 2rem 1.5rem;
+	margin: 1.5rem;
+	padding: 0.1rem 1.5rem 2rem 1.5rem;
 }
 
-.TranslationsBlock{
-	background-color: white;
-	color: black;
-	margin: 1rem;
-	padding: 0.3rem 1.5rem 2rem 1.5rem;
-	text-align: center;
-}
 
 .TranslationsBlock ul{
 	list-style-position:none;
-	margin: 0.5rem 1rem;
-	padding: 0;
+	margin: 0.3rem 1rem;
+	padding: 1rem;
+	text-align:left;
 }
+
+footer{
+	margin: 0 auto;
+}
+
+/*SINGLE COLUMN CSS LAYOUT*/
+/*  *{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin-top: 0;
+}*/
+	
