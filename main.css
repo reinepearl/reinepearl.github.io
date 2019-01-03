@@ -158,7 +158,7 @@ This class makes the topnav look good on small screens (display the links vertic
     display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
-    text-align: left;
+    text-align: middle;
 	font-size: 2.5vw;
 	padding-left:0.75vw;
 	padding-right:0.75vw;
