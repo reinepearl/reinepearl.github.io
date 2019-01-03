@@ -13,6 +13,7 @@ p, li{
 h1{
 	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
 	font-size: 3.4vw;
+	padding: 1rem 0rem 0rem 0rem;
 }
 
 h2{}
@@ -20,6 +21,7 @@ h2{}
 h3{
 	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
 	font-size: 2.6vw;
+	padding: 0rem 0rem 1rem 0rem;
 }
 
 h4{
@@ -28,8 +30,10 @@ h4{
 }
 
 .WebsiteHeader{
-	color:black;
-	max-width: 75%;
+	background-image: url("https://github.com/reinepearl/reinepearl.github.io/blob/master/WebsiteHeaderImage.jpeg?raw=true");
+	background-size: cover;
+	color:white;
+	max-width: 54.5%;
 	margin: 0 auto;
 	padding: 0;
 	text-align: center;
