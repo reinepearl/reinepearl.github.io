@@ -6,7 +6,7 @@
 			<link rel = "stylesheet" type = "text/css" href = "main.css"/>
 			<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>-->
 			<meta charset = "utf-8">
-			<!--<meta id = "Viewport" name = "viewport" content = "width=device-width, initial-scale=1">-->
+			<meta id = "Viewport" name = "viewport" content = "width=device-width, initial-scale=1">
 		</head>
 	<div class = "theBigContainer">
 		<header>
@@ -22,24 +22,22 @@
 		
 			<div class = "container">
 				<div class = "row">
-						<div class = "topnav">
-							<div class = "col-sm-3">
-								<a href = "index.html">Home</a>
-							</div>
-							<div class ="col-sm-3">
-								<a href = "#">Original Works</a>
-							</div>
-							<div class = "col-sm-3">
-								<div class = "dropdown">
-									<button class = "dropbtn">Translations</button>
-									<div class = "dropdown-content">
-										<a href = "#">The Haunted (BL)</a>
-									</div>
+						<div class = "topnav" id = "myTopnav">
+							<a href = "index.html">Home</a>
+							<div class = "dropdown">
+								<button class = "dropbtn">Original Works</button>
+								<div class = "dropdown-content">
+									<a href = "#">I Try to Hug the Golden Thigh but the Golden Thigh Hugged Me Instead</a>
 								</div>
 							</div>
-							<div class = "col-sm-3">
-								<a href = "#">Contact</a>
+							<div class = "dropdown">
+								<button class = "dropbtn">Translations</button>
+								<div class = "dropdown-content">
+									<a href = "#">The Haunted (BL)</a>
+								</div>
 							</div>
+							<a href = "#">Contact</a>
+							<a href="javascript:void(0);" style="font-size:2.5vw;" class="icon" onclick="myFunction()">&#9776;</a>
 						</div>			
 				</div>
 			</div>
@@ -103,7 +101,16 @@
 	
 	</div>
 
-
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
 
 
 </html>
