@@ -15,8 +15,6 @@ h1{
 	font-size: 3.4vw;
 }
 
-h2{}
-
 h3{
 	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
 	font-size: 2.6vw;
@@ -201,6 +199,7 @@ This class makes the topnav look good on small screens (display the links vertic
 	font-size: 1.1vw;
 	list-style-position:inside;
 }
+
 
 /*the things between content and footer*/
 .FooterNav{
