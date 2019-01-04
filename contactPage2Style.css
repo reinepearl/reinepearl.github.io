@@ -1,0 +1,9 @@
+.usernamebox, .emailbox{
+	display: flex;
+	flexwrap: wrap;
+	justify-content: center;
+}
+
+.formContainer{
+	height: 80px;
+}
