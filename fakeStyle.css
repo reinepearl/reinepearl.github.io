@@ -1,1 +1,131 @@
+/*.BigContainer{
+	max-width: 90&;
+}*/
 
+/*FONT STYLE*/
+p, li{
+	font-size: 1.1vw;
+}
+
+h1{
+	font-size: 3.4vw;
+}
+
+h3{
+	font-size: 2.6vw;
+}
+
+h4{
+	font-size: 1.5vw;
+}
+
+.MainTitle{
+	background-image: url("https://github.com/reinepearl/reinepearl.github.io/blob/master/WebsiteHeaderImage.jpeg?raw=true");
+	background-size: cover;
+	color: white;
+	padding: 6rem; 
+	margin: 0 auto;
+	/*margin needs to be 0 auto or dropdowncontent will separate fr dropdown button*/
+}
+
+/*TOP NAV*/
+.topnav{
+	background-color: black;
+	display: block;
+		/*flexwrap: wrap;
+		justify-content: center;*/
+	padding: 1rem;
+	font-size: 1.5rem;
+	margin-bottom: 0rem;
+}
+
+.topnav a{
+	color: white;
+	display: inline-block;
+	padding: 1rem;
+	text-align:center;
+	text-decoration: none;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn{
+	background-color: white;
+	color: black;
+}
+.dropdown{
+	float:left;
+	overflow: hidden;
+	text-align: inherit;
+}
+
+.dropdown .dropbtn{
+	background-color: inherit;
+	border: none;
+	color: white;
+	font-family: inherit;
+	margin:0;
+	outline: none;
+	padding: 1rem;
+}
+
+.dropdown-content{
+	background-color: white;
+	display: none;
+	position: fixed;
+	box-shadow: 0px 8px 16px 0px rgb(0,0,0.2);
+	margin: 0rem 0rem 1rem 0rem;
+}
+
+.dropdown-content a{
+	color: black;
+	display: block;
+	float: none;
+	padding: 1rem;
+	text-align: left;
+	text-decoration: none;
+}
+
+.dropdown:hover .dropdown-content{
+	display:block;
+	margin: 0;
+}
+
+/*BODY*/
+.PageContent{
+	background-color: white;
+	display: left;
+	font-size: 100%;
+	margin: 0 auto;
+	overflow:auto;
+	text-align:left;
+	padding: 1rem 1rem;
+}
+
+.PageTitle h3{
+	padding: 0.25rem 0rem 0rem 3rem;
+}
+
+.PageBody p{
+	padding: 0.25rem 0rem 0.25rem 3rem;
+}
+
+.PageBody ul{
+	font-size: 1.1vw;
+	list-style-position:inside;
+}
+
+
+.OriginalWorksBlock, .TranslationsBlock{
+	background-color: white;
+	color: black;
+	margin: 1.5rem 0rem;
+	padding: 2rem 1.5rem 2rem 1.5rem;
+	overflow: auto;
+	text-align: center;
+}
+
+.TranslationsBlock ul{
+	list-style-position:inside;
+	margin: 0 auto;
+	padding: 1rem;
+	text-align:center;
+}
