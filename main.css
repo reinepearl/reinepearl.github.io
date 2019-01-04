@@ -85,6 +85,13 @@
 	padding: 0.25rem 0rem 0rem 3rem;
 }
 
+.PageBody img{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	height: 80%;
+}
+
 .PageBody p{
 	padding: 0.25rem 0rem 0.25rem 3rem;
 }
@@ -113,5 +120,5 @@
 }
 
 footer{
-	margin: 0 auto;
+	margin: 1rem;
 }
