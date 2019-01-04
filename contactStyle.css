@@ -1,7 +1,7 @@
 /*FORMS*/
 /* Style inputs, select elements and textareas */
-.FormContainer{
-  input[type=text], input[type=email], select, textarea {
+
+input[type=text], select, textarea{
   width: 80%;
   padding: 1rem;
   border: 0.5rem solid black;
@@ -73,5 +73,4 @@ columns stack on top of each other instead of next to each other */
     width: 100%;
     margin-top: 0;
   }
-}
 }
