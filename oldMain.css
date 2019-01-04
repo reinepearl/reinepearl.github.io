@@ -1,1 +1,232 @@
+/*GENERAL SETTINGS*/
+body{
+	background-color: rgb(163,217,237); /*light blue color*/ 
+	$body-bg: rgb(163,217,237);
+	width: 99%;
+}
+
+p, li{
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 1.1vw;
+}
+
+h1{
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 3.4vw;
+}
+
+h3{
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 2.6vw;
+}
+
+h4{
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 1.5vw;
+}
+
+.theBigContainer{
+	max-width: 99%;
+}
+
+.WebsiteHeader{
+	background-image: url("https://github.com/reinepearl/reinepearl.github.io/blob/master/WebsiteHeaderImage.jpeg?raw=true");
+	background-size: cover;
+	color:white;
+	max-width: 70%;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+}
+
+.WebsiteHeader h1{
+	padding: 1rem 0rem 1rem 0rem;
+}
+
+.WebsiteHeader h3{
+	padding: 0rem 0rem 1rem 0rem;
+}
+
+
+/*TOP NAVGATION*/
+.topnav{
+	background-color: black; 
+	display:flex;
+		flexwrap: wrap;
+		justify-content: center;
+	overflow: auto;
+	max-width: 70%;
+	margin: 0 auto;
+}
+
+.topnav a{
+	color: white;
+	/*display: inline;*/
+	display: inline-block;
+	font-size: 1.1rem;
+	float: left;
+	padding: 1rem 1rem;
+	text-align: middle;
+	text-decoration: none;
+}
+
+.topnav a:hover{
+	background-color: white;
+	color: black;
+}
+
+.topnav .icon{
+	display:none;
+}
+
+.dropdown{
+	float: left;
+	overflow: hidden;
+}
+.dropdown .dropbtn{
+	background-color: inherit;
+	border: none;
+	color: white;
+	font-family: inherit; /*important for vertical align on mobile*/
+	font-size: 1.1rem;
+	margin: 0; /*important for vertical align on mobile*/
+	outline: none;
+	padding: 1rem 1rem;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn{
+	background-color: white;
+	color: black;
+}
+
+.dropdown-content {
+	background-color: white;
+	/*border-style:groove;
+		border-color: rgb(163,217,237); /*blue border*/
+	display:none;
+	/*min-width: 160px;*/
+	position: absolute;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a{
+	color:black;
+	display: block;
+	float: none;
+	padding: 1rem 0.5rem;
+	text-align: left;
+	text-decoration: none;
+}
+
+/*.dropdown-content a:hover{
+	background-color:white;
+}
+might not need it if background color of dropdown button stays white */
+
+/*show the dropdown menu on hover*/
+.dropdown:hover .dropdown-content{
+	display:block;
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). 
+Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px){
+	.topnav a:not(:first-child), .dropdown .dropbtn{
+		display: none;
+	}
+	
+	.topnav a.icon{
+		float: right;
+		display: flex;
+	}
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. 
+This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px){	
+	.topnav.responsive{position:relative;}
+	.topnav.responsive.icon {
+		position: absolute;
+		right:0;
+		top:0;
+	}
+	
+	.topnav.responsive a {
+    float: none;
+    display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+    text-align: middle;
+	font-size: 2.5vw;
+	padding-left:0.75vw;
+	padding-right:0.75vw;
+	}
+	
+	.topnav.responsive .dropdown {float: none;}
+	.topnav.responsive .dropdown-content {position: relative;}
+	.topnav.responsive .dropdown .dropbtn {
+		display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+		width: 100%;
+		text-align: center;
+		font-size: 2.5vw;
+		padding-left:0.75vw;
+		padding-right:0.75vw;
+	}
+}
+
+/*PAGE CONTENT*/
+.PageContent{
+	background-color: white;
+	display: left;
+	font-size: 100%;
+	margin: 0 auto;
+	max-width: 70%;
+	overflow:auto;
+	text-align:left;
+}
+
+.PageTitle h4{
+	padding: 0.25rem 0rem 0rem 3rem;
+}
+
+.PageBody p{
+	padding: 0.25rem 0rem 0.25rem 3rem;
+}
+
+.PageBody ul{
+	font-size: 1.1vw;
+	list-style-position:inside;
+}
+
+
+/*the things between content and footer*/
+.FooterNav{
+	display:block;
+		/*flex-wrap:wrap;
+		justify-content: center;*/
+	max-width: 35%;
+	margin: 0 auto;
+}
+.OriginalWorksBlock, .TranslationsBlock{
+	background-color: white;
+	color: black;
+	margin: 1.5rem;
+	padding: 0.1rem 1.5rem 2rem 1.5rem;
+	overflow: auto;
+	text-align: center;
+}
+
+.TranslationsBlock ul{
+	list-style-position:inside;
+	margin: 0 auto;
+	padding: 1rem;
+	text-align:center;
+}
+
+footer{
+	margin: 0 auto;
+}
+
 
