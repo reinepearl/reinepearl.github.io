@@ -1,0 +1,77 @@
+/*FORMS*/
+/* Style inputs, select elements and textareas */
+.FormContainer{
+  input[type=text], input[type=email], select, textarea {
+  width: 80%;
+  padding: 1rem;
+  border: 0.5rem solid black;
+  border-radius: 0.5px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+/* Style the label to display next to the inputs */
+  label {
+  padding: 1rem;
+  display: inline-block;
+  text-align:center;
+  width: 100%;
+}
+
+/* Style the submit button */
+  input[type=submit] {
+  background-color: rgb(137,216,233);
+  color: black;
+  padding: 2rem 4rem;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  float: left;
+  margin: 2rem 4rem;
+}
+
+/* Style the container */
+  .container {
+  border-radius: 1rem;
+  padding: 1rem;
+  max-width:91%;
+}
+
+/* Floating column for labels: 25% width */
+  .col-sm-4 {
+  float: left;
+  width: 30%;
+  padding-left:7rem;
+  margin-top: 1rem;
+  text-align: left:
+}
+
+/* Floating column for inputs: 75% width */
+  .col-sm-8 {
+  float: left;
+  width: 60%;
+  margin-top: 1rem;
+}
+
+  .row{
+	display:flex;
+	flexwrap:wrap;
+	justify-content:center;
+}
+
+/* Clear floats after the columns */
+ .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two 
+columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+}

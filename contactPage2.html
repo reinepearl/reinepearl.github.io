@@ -9,6 +9,7 @@
 			
 			<head>
 				<link rel = "stylesheet" type = "text/css" href = "main.css"/>
+				<link rel = "stylesheet" type = "text/css" href = "contactStyle.css"/>
 				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
 				<meta charset = "utf-8">
 				<style>
@@ -39,7 +40,7 @@
 							<div class = "dropdown" >
 								<button class = "dropbtn">Original Works</button>
 								<div class = "dropdown-content">
-									<a href = "contactPage2.html">I Try to Hug the Golden Thigh but the Golden Thigh Hugged Me Instead</a>
+									<a href = "#">I Try to Hug the Golden Thigh but the Golden Thigh Hugged Me Instead</a>
 								</div>
 							</div>
 							</div>
@@ -51,7 +52,7 @@
 								</div>
 							</div>
 							</div>
-							<a href = "contactPage.html"> Contact</a>
+							<a href = "#"> Contact</a>
 						</nav>
 					</div>
 				</div>
@@ -62,18 +63,22 @@
 					<div class = "row">
 						<div class = "PageContent">
 							<section class = "PageTitle">
-								<h3><strong>Home</strong></h3>
+								<h3><strong>Contact Form</strong></h3>
 							</section>
 							
-							<section class = "PageBody">
-								<p> Hi, Dewy here! ^-^ </p>
-									<p> Here is my tentative update schedule: </p>
-									<p> Original Works: </p>
-									<p> Translated Works: </p>
-									<ul>
-										<li> The Haunted - 1 chapter or more / 2 week </li>
-									</ul>
-							</section>
+							<div class = "formContainer">
+							<div class="container">
+								<form method="POST" action="https://formspree.io/YOUREMAILHERE">
+									<div class = "row">
+										<input type="Username" name="user_name" placeholder="Username">
+									</div>
+									<input type="Email" name="email_address" placeholder="Your email">
+									<input type="UserWebsite" name="user_website" placeholder="Website (optional)">
+									<textarea name="message" placeholder="Message"></textarea>
+									<button type="submit">Send Test</button>
+								</form>
+							</div>
+							</div>
 						</div>
 					</div>
 					

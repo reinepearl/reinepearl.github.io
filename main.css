@@ -1,6 +1,4 @@
-/*.BigContainer{
-	max-width: 90&;
-}*/
+
 
 .MainTitle{
 	color: black;
@@ -126,7 +124,8 @@ footer{
 
 /*FORMS*/
 /* Style inputs, select elements and textareas */
-.inputForm input[type=text], .inputForm input[type=email], .inputForm select, .inputForm textarea{
+.FormContainer{
+  input[type=text],   input[type=email],   select,   textarea{
   width: 80%;
   padding: 1rem;
   border: 0.5rem solid black;
@@ -136,7 +135,7 @@ footer{
 }
 
 /* Style the label to display next to the inputs */
-.inputForm label {
+  label {
   padding: 1rem;
   display: inline-block;
   text-align:center;
@@ -144,7 +143,7 @@ footer{
 }
 
 /* Style the submit button */
-.inputForm input[type=submit] {
+  input[type=submit] {
   background-color: rgb(137,216,233);
   color: black;
   padding: 2rem 4rem;
@@ -156,14 +155,14 @@ footer{
 }
 
 /* Style the container */
-.inputForm .container {
+  .container {
   border-radius: 1rem;
   padding: 1rem;
   max-width:91%;
 }
 
 /* Floating column for labels: 25% width */
-.inputForm .col-sm-4 {
+  .col-sm-4 {
   float: left;
   width: 30%;
   padding-left:7rem;
@@ -172,20 +171,20 @@ footer{
 }
 
 /* Floating column for inputs: 75% width */
-.inputForm .col-sm-8 {
+  .col-sm-8 {
   float: left;
   width: 60%;
   margin-top: 1rem;
 }
 
-.inputForm .row{
+  .row{
 	display:flex;
 	flexwrap:wrap;
 	justify-content:center;
 }
 
 /* Clear floats after the columns */
-.inputForm .row:after {
+ .row:after {
   content: "";
   display: table;
   clear: both;
@@ -198,4 +197,5 @@ columns stack on top of each other instead of next to each other */
     width: 100%;
     margin-top: 0;
   }
+}
 }
