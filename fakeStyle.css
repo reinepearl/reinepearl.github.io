@@ -2,30 +2,11 @@
 	max-width: 90&;
 }*/
 
-/*FONT STYLE*/
-p, li{
-	font-size: 1.1vw;
-}
-
-h1{
-	font-size: 3.4vw;
-}
-
-h3{
-	font-size: 2.6vw;
-}
-
-h4{
-	font-size: 1.5vw;
-}
-
 .MainTitle{
-	background-image: url("https://github.com/reinepearl/reinepearl.github.io/blob/master/WebsiteHeaderImage.jpeg?raw=true");
-	background-size: cover;
-	color: white;
-	padding: 6rem; 
+	color: black;
+	padding: 5rem; 
 	margin: 0 auto;
-	/*margin needs to be 0 auto or dropdowncontent will separate fr dropdown button*/
+	/*padding needs to be small or dropdowncontent will separate fr dropdown button*/
 }
 
 /*TOP NAV*/
@@ -124,6 +105,7 @@ h4{
 }
 
 .TranslationsBlock ul{
+	color:black;
 	list-style-position:inside;
 	margin: 0 auto;
 	padding: 1rem;
