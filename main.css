@@ -126,55 +126,66 @@ footer{
 
 /*FORMS*/
 /* Style inputs, select elements and textareas */
-input[type=text], select, textarea{
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+.inputForm input[type=text], .inputForm input[type=email], .inputForm select, .inputForm textarea{
+  width: 80%;
+  padding: 1rem;
+  border: 0.5rem solid black;
+  border-radius: 0.5px;
   box-sizing: border-box;
   resize: vertical;
 }
 
 /* Style the label to display next to the inputs */
-label {
-  padding: 12px 12px 12px 0;
+.inputForm label {
+  padding: 1rem;
   display: inline-block;
+  text-align:center;
+  width: 100%;
 }
 
 /* Style the submit button */
-input[type=submit] {
-  background-color: #4CAF50;
-  color: white;
-  padding: 12px 20px;
+.inputForm input[type=submit] {
+  background-color: rgb(137,216,233);
+  color: black;
+  padding: 2rem 4rem;
   border: none;
-  border-radius: 4px;
+  border-radius: 1rem;
   cursor: pointer;
-  float: right;
+  float: left;
+  margin: 2rem 4rem;
 }
 
 /* Style the container */
-.container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
+.inputForm .container {
+  border-radius: 1rem;
+  padding: 1rem;
+  max-width:91%;
 }
 
 /* Floating column for labels: 25% width */
-.col-25 {
+.inputForm .col-sm-4 {
   float: left;
-  width: 25%;
-  margin-top: 6px;
+  width: 30%;
+  padding-left:7rem;
+  margin-top: 1rem;
+  text-align: left:
 }
 
 /* Floating column for inputs: 75% width */
-.col-75 {
+.inputForm .col-sm-8 {
   float: left;
-  width: 75%;
-  margin-top: 6px;
+  width: 60%;
+  margin-top: 1rem;
+}
+
+.inputForm .row{
+	display:flex;
+	flexwrap:wrap;
+	justify-content:center;
 }
 
 /* Clear floats after the columns */
-.row:after {
+.inputForm .row:after {
   content: "";
   display: table;
   clear: both;
