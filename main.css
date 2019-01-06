@@ -118,6 +118,15 @@
 	text-align:center;
 }
 
+/*UTTERANC.ES LAYOUT*/
+.utterances{
+	background-color: green;
+}
+
+.utterances-frame{
+	background-color:yellow;
+}
+
 /*FOOTER*/
 footer{
 	margin: 1rem;
