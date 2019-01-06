@@ -79,7 +79,7 @@
 	padding: 1rem 1rem;
 }
 
-.PageTitle h3{
+.PageTitle, .PageBody h3{
 	padding: 0.25rem 0rem 0rem 3rem;
 }
 
