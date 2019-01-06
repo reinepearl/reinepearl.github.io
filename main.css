@@ -120,12 +120,10 @@
 
 /*UTTERANC.ES LAYOUT*/
 .utterances{
-	background-color: green;
+	color:black;
 }
 
-.utterances-frame{
-	background-color:yellow;
-}
+.utterances-frame{}
 
 /*FOOTER*/
 footer{
