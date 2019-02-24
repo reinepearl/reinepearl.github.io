@@ -110,7 +110,7 @@
 	text-align: center;
 }
 
-.TranslationsBlock ul{
+.OriginalWorksBlock, .TranslationsBlock ul{
 	color:black;
 	list-style-position:inside;
 	margin: 0 auto;
