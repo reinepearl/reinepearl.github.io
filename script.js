@@ -1,3 +1,11 @@
+function increaseFontFunction(){
+	var biggerFont = document.getElementByClassName("PageBody");
+	
+}
+
+
+
+
 function incrementValueHappy(){
 	var value = document.getElementById("happyKaomoji").value;
 	value++;
