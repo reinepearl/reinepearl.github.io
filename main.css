@@ -101,7 +101,7 @@
 	list-style-position:inside;
 }
 
-.kaomojiButtons{
+.FontSizeButton, .kaomojiButtons{
 	background-color: rgb(251,251,251);
 	margin: 0.75rem;
 	padding: 0.5rem 1rem;
