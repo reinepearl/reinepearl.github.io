@@ -1,6 +1,25 @@
-function increaseFontFunction(){
-	var biggerFont = document.getElementByClassName("PageBody");
-	
+function increaseFontFunctionToNormal(){
+	document.getElementById("contentBigParagraph").style.fontSize = "130%";
+	document.getElementById("contentBigTranNote").style.fontSize = "130%";
+	document.getElementById("contentBigChNav").style.fontSize = "130%";
+	document.getElementById("contentBigDewyNote").style.fontSize = "130%";
+	document.getElementById("contentBigFootnote").style.fontSize = "130%";
+}
+
+function increaseFontFunctionToLarge(){
+	document.getElementById("contentBigParagraph").style.fontSize = "170%";
+	document.getElementById("contentBigTranNote").style.fontSize = "170%";
+	document.getElementById("contentBigChNav").style.fontSize = "170%";
+	document.getElementById("contentBigDewyNote").style.fontSize = "170%";
+	document.getElementById("contentBigFootnote").style.fontSize = "170%";
+}
+
+function increaseFontFunctionToMoreLarge(){
+	document.getElementById("contentBigParagraph").style.fontSize = "200%";
+	document.getElementById("contentBigTranNote").style.fontSize = "200%";
+	document.getElementById("contentBigChNav").style.fontSize = "200%";
+	document.getElementById("contentBigDewyNote").style.fontSize = "200%";
+	document.getElementById("contentBigFootnote").style.fontSize = "200%";
 }
 
 
