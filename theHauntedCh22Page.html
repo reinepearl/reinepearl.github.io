@@ -11,6 +11,7 @@
 				<!--This work has been translated by Reinepearl, please do not repost-->
 				<link rel = "stylesheet" type = "text/css" href = "main.css"/>
 				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+				<script type = "text/javascript" src = "script.js"></script>
 				<meta charset = "utf-8">
 				<meta property = "og:title" content = "The Haunted Chapter 22" />
 				<style>
@@ -69,9 +70,17 @@
 							</section>
 							
 							<section class = "PageBody">
-								<p><strong>Ch.22 Evil-Suppressing Talisman</strong></p>
+								<center>
+								<button type = "button" class = "FontSizeButton" onclick = "increaseFontFunctionToMoreSmall()">A - -</button>
+								<button type = "button" class = "FontSizeButton" onclick = "increaseFontFunctionToSmall()">A-</button>
+								<button type = "button" class = "FontSizeButton" onclick = "increaseFontFunctionToNormal()">A</button>
+								<button type = "button" class = "FontSizeButton" onclick = "increaseFontFunctionToLarge()">A+</button>
+								<button type = "button" class = "FontSizeButton" onclick = "increaseFontFunctionToMoreLarge()">A++</button>
+								</center>
 								
-								<p>Chi Yan begins to feel the chill disperse little by little only after climbing into the car, slowly warmed by the July heat.
+								<p id = "contentParagraph"><strong>Ch.22 Evil-Suppressing Talisman</strong>
+								<br/><br/>
+								Chi Yan begins to feel the chill disperse little by little only after climbing into the car, slowly warmed by the July heat.
 								<br/><br/>
 								He buried his face in his hands and let out a long breath. After a long time, he finally recovered enough to lower his hands. He fished out a very ordinary white business card from his pocket.
 								<br/><br/>
@@ -144,11 +153,28 @@
 								Chi Yan grasped the 3 talismans along with the matches, placed them into his pocket separately. He forced a smile and thanked Mr. Tang before leaving.</p>
 								<hr>
 								<center>
-								<p><a href= "https://slightlylemony.wordpress.com/2018/06/09/chapter-21-disguise/">Prev</a> - <a href = "theHaunted(BL)Page.html">TOC</a> - <a href = "theHauntedCh23Page.html">Next</a></p>
+								<p id = "contentChNav"><a href= "https://slightlylemony.wordpress.com/2018/06/09/chapter-21-disguise/">Prev</a> - <a href = "theHaunted(BL)Page.html">TOC</a> - <a href = "theHauntedCh23Page.html">Next</a></p>
 								</center>
 								<hr>
-								<p>Dewy: If you enjoy my content, please consider supporting what I do. Thank you. ^-^</p>
+								<p id = "contentDewyNote">Dewy: If you enjoy my content, please consider supporting what I do. Thank you. ^-^</p>
 								<center><script type='text/javascript' src='https://ko-fi.com/widgets/widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Ko-fi ', '#8be0e0', 'C0C1R0OB');kofiwidget2.draw();</script></center>
+								<hr>
+								<center>
+									<button  id = "happyKaomoji" class = "kaomojiButtons" onclick = "incrementValueHappy()" value = "0">O(∩_∩)O</button>
+										<button id = "happyKaomojiDisplay" class = "kaomojiButtonsNumberClicked"></button>
+									<button id = "laughingKaomoji" class = "kaomojiButtons" onclick = "incrementValueLaughing()" value = "0">(灬º 艸º灬)</button>
+										<button id = "laughingKaomojiDisplay" class = "kaomojiButtonsNumberClicked"></button>
+									<button id = "loveKaomoji" class = "kaomojiButtons" onclick = "incrementValueLove()">(ﾉ◕ヮ◕)ﾉ*~♡</button>
+										<button id = "loveKaomojiDisplay" class = "kaomojiButtonsNumberClicked"></button>
+									<button id = "shockedKaomoji" class = "kaomojiButtons" onclick = "incrementValueShocked()" value = "0">Σ(っ °Д °;)っ</button>
+										<button id = "shockedKaomojiDisplay" class = "kaomojiButtonsNumberClicked"></button>
+									<button id = "flipTableKaomoji" class = "kaomojiButtons" onclick = "incrementValueFlipTable()" value = "0">(╯‵□′)╯︵┻━┻</button>
+										<button id = "flipTableKaomojiDisplay" class = "kaomojiButtonsNumberClicked"></button>
+									<button id = "cryingKaomoji" class = "kaomojiButtons" onclick = "incrementValueCrying()" value = "0">/(ㄒoㄒ)/~~</button>
+										<button id = "cryingKaomojiDisplay" class = "kaomojiButtonsNumberClicked"></button>
+									
+								</center>
+								<noscript>Sorry, your browser does not support JavaScript!</noscript>
 							</section>
 						</div>
 					</div>

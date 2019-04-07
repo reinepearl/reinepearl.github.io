@@ -10,6 +10,7 @@
 			<head>
 				<link rel = "stylesheet" type = "text/css" href = "main.css"/>
 				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+				<script type = "text/javascript" src = "script.js"></script>
 				<meta charset = "utf-8">
 				<style>
 					body{background-color: rgb(163,217,237);
@@ -67,8 +68,18 @@
 							</section>
 							
 							<section class = "PageBody">
-								<p><strong>Description</strong></p>
-								<p>Greek mythology is very well known. But how much of the truth was preserved?</p>
+								<center>
+								<button type = "button" class = "FontSizeButton" onclick = "increaseFontFunctionToMoreSmall()">A - -</button>
+								<button type = "button" class = "FontSizeButton" onclick = "increaseFontFunctionToSmall()">A-</button>
+								<button type = "button" class = "FontSizeButton" onclick = "increaseFontFunctionToNormal()">A</button>
+								<button type = "button" class = "FontSizeButton" onclick = "increaseFontFunctionToLarge()">A+</button>
+								<button type = "button" class = "FontSizeButton" onclick = "increaseFontFunctionToMoreLarge()">A++</button>
+								</center>
+								
+								<p id = "contentParagraph"><strong>Description</strong>
+								<br/><br/>
+								Greek mythology is very well known. But how much of the truth was preserved?</p>
+								
 								<p><strong>Arc 1 - Pride and Practicality</strong></p>
 								<ul>
 									<li><a href="PrideAndPracticality1_1.html">1.1</a></li>
