@@ -22,6 +22,7 @@ function increaseFontFunctionToMoreSmall(){
 		if (element1Exists != null){
 			document.getElementById("contentFootnote").style.fontSize = "100%"
 		}
+	
 }
 
 function increaseFontFunctionToSmall(){

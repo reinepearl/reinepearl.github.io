@@ -108,6 +108,7 @@
 	outline: none;
 	border-color: none;
 	display:inline;
+	margin: 2rem 1rem ;
 }
 
 .kaomojiButtonsNumberClicked{
@@ -147,7 +148,6 @@ footer{
 	display:inline;
 	
 }
-
 
 
 
