@@ -129,7 +129,7 @@ function increaseFontFunctionToMoreLarge(){
 			document.getElementById("contentFootnote").style.fontSize = "200%"
 		}
 }
-
+/*
 function incrementValueHappy(){
 	var value = document.getElementById("happyKaomoji").value;
 	value++;
@@ -201,4 +201,6 @@ function incrementValueCrying(){
 		document.getElementById("cryingKaomojiDisplay").innerHTML = " ";
 		}
 }
+ */
+
 
