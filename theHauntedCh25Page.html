@@ -61,7 +61,7 @@
 				</div>
 			</header>
 			
-			<body>
+			<body id = "load();">
 				<div class = "container">
 					<div class = "row">
 						<div class = "PageContent">
@@ -258,18 +258,91 @@
 								<center><script type='text/javascript' src='https://ko-fi.com/widgets/widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Ko-fi ', '#8be0e0', 'C0C1R0OB');kofiwidget2.draw();</script></center>
 								<hr>
 								<center>
-									<button  id = "happyKaomoji" class = "kaomojiButtons" onclick = "incrementValueHappy()" value = "0">O(∩_∩)O</button>
-										<button id = "happyKaomojiDisplay" class = "kaomojiButtonsNumberClicked"></button>
-									<button id = "laughingKaomoji" class = "kaomojiButtons" onclick = "incrementValueLaughing()" value = "0">(灬º 艸º灬)</button>
-										<button id = "laughingKaomojiDisplay" class = "kaomojiButtonsNumberClicked"></button>
-									<button id = "loveKaomoji" class = "kaomojiButtons" onclick = "incrementValueLove()">(ﾉ◕ヮ◕)ﾉ*~♡</button>
-										<button id = "loveKaomojiDisplay" class = "kaomojiButtonsNumberClicked"></button>
-									<button id = "shockedKaomoji" class = "kaomojiButtons" onclick = "incrementValueShocked()" value = "0">Σ(っ °Д °;)っ</button>
-										<button id = "shockedKaomojiDisplay" class = "kaomojiButtonsNumberClicked"></button>
-									<button id = "flipTableKaomoji" class = "kaomojiButtons" onclick = "incrementValueFlipTable()" value = "0">(╯‵□′)╯︵┻━┻</button>
-										<button id = "flipTableKaomojiDisplay" class = "kaomojiButtonsNumberClicked"></button>
-									<button id = "cryingKaomoji" class = "kaomojiButtons" onclick = "incrementValueCrying()" value = "0">/(ㄒoㄒ)/~~</button>
-										<button id = "cryingKaomojiDisplay" class = "kaomojiButtonsNumberClicked"></button>
+								<button type="button" onclick="counterFn()" class = "kaomojiButtons">O(∩_∩)O</button>
+										<button class = "kaomojiButtonsNumberClicked"><a id="counterValue"></a></button>
+									<button type="button" onclick="counterFn2()" class = "kaomojiButtons">(灬º 艸º灬)</button>
+										<button class = "kaomojiButtonsNumberClicked"><a id="counterValue1"></a></button>
+									<button type="button" onclick="counterFn3()" class = "kaomojiButtons">(ﾉ◕ヮ◕)ﾉ*</button>
+										<button class = "kaomojiButtonsNumberClicked"><a id="counterValue2"></a></button>
+									<button type="button" onclick="counterFn4()" class = "kaomojiButtons">Σ(っ °Д °;)っ</button>
+										<button class = "kaomojiButtonsNumberClicked"><a id="counterValue3"></a></button>
+									<button type="button" onclick="counterFn5()" class = "kaomojiButtons">(╯‵□′)╯︵┻━┻</button>
+										<button class = "kaomojiButtonsNumberClicked"><a id="counterValue4"></a></button>
+									<button type="button" onclick="counterFn6()" class = "kaomojiButtons">/(ㄒoㄒ)/~~</button>
+										<button class = "kaomojiButtonsNumberClicked"><a id="counterValue5"></a></button>
+								<script>
+								function load()
+           {if(localStorage.getItem("counter")!=null)
+                 {
+                     counter = Number(localStorage.getItem("counter"));
+                     document.getElementById("counterValue").innerHTML = counter;
+                 }
+
+           }
+        var counter18= 0; 
+		var counter19 = 0;
+		var counter20 = 0;
+		var counter21= 0; 
+		var counter22 = 0;
+		var counter23 = 0;
+
+         function counterFn() {          
+            counter18 = Number(localStorage.getItem("counter18"));
+
+            console.log(counter18);
+            counter18 += 1;
+            localStorage.setItem("counter18",counter18);             
+            document.getElementById("counterValue").innerHTML = counter18;
+         }
+		 
+		 function counterFn2() {          
+            counter19 = Number(localStorage.getItem("counter19"));
+
+            console.log(counter19);
+            counter19 += 1;
+            localStorage.setItem("counter19",counter19);             
+            document.getElementById("counterValue1").innerHTML = counter19;
+         }
+		 
+		 function counterFn3() {          
+            counter20 = Number(localStorage.getItem("counter20"));
+
+            console.log(counter20);
+            counter20 += 1;
+            localStorage.setItem("counter20",counter20);             
+            document.getElementById("counterValue2").innerHTML = counter20;
+         }
+		 
+		 function counterFn4() {          
+            counter21 = Number(localStorage.getItem("counter21"));
+
+            console.log(counter21);
+            counter21 += 1;
+            localStorage.setItem("counter21",counter21);             
+            document.getElementById("counterValue3").innerHTML = counter21;
+         }
+		 
+		 function counterFn5() {          
+            counter22 = Number(localStorage.getItem("counter22"));
+
+            console.log(counter22);
+            counter22 += 1;
+            localStorage.setItem("counter22",counter22);             
+            document.getElementById("counterValue4").innerHTML = counter22;
+         }
+		 
+		 function counterFn6() {          
+            counter23 = Number(localStorage.getItem("counter23"));
+
+            console.log(counter23);
+            counter23 += 1;
+            localStorage.setItem("counter23",counter23);             
+            document.getElementById("counterValue5").innerHTML = counter23;
+			}
+			
+								</script>
+									
+									
 									
 								</center>
 								<noscript>Sorry, your browser does not support JavaScript!</noscript>
