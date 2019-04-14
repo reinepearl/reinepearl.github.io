@@ -18,6 +18,21 @@ function increaseFontFunctionToMoreSmall(){
 			document.getElementById("contentParagraph3").style.fontSize = "100%"
 		}
 	
+	var element1Exists = document.getElementById("contentParagraph4");
+		if (element1Exists != null){
+			document.getElementById("contentParagraph4").style.fontSize = "100%"
+		}
+	
+	var element1Exists = document.getElementById("contentParagraph5");
+		if (element1Exists != null){
+			document.getElementById("contentParagraph5").style.fontSize = "100%"
+		}
+	
+	var element1Exists = document.getElementById("contentParagraph6");
+		if (element1Exists != null){
+			document.getElementById("contentParagraph6").style.fontSize = "100%"
+		}
+	
 	var element1Exists = document.getElementById("contentFootnote");
 		if (element1Exists != null){
 			document.getElementById("contentFootnote").style.fontSize = "100%"
@@ -45,6 +60,21 @@ function increaseFontFunctionToSmall(){
 			document.getElementById("contentParagraph3").style.fontSize = "110%"
 		}
 		
+		var element1Exists = document.getElementById("contentParagraph4");
+		if (element1Exists != null){
+			document.getElementById("contentParagraph4").style.fontSize = "110%"
+		}
+		
+		var element1Exists = document.getElementById("contentParagraph5");
+		if (element1Exists != null){
+			document.getElementById("contentParagraph5").style.fontSize = "110%"
+		}
+		
+		var element1Exists = document.getElementById("contentParagraph6");
+		if (element1Exists != null){
+			document.getElementById("contentParagraph6").style.fontSize = "110%"
+		}
+		
 	var element1Exists = document.getElementById("contentFootnote");
 		if (element1Exists != null){
 			document.getElementById("contentFootnote").style.fontSize = "110%"
@@ -69,6 +99,21 @@ function increaseFontFunctionToNormal(){
 	var element1Exists = document.getElementById("contentParagraph3");
 		if (element1Exists != null){
 			document.getElementById("contentParagraph3").style.fontSize = "130%"
+		}
+		
+	var element1Exists = document.getElementById("contentParagraph4");
+		if (element1Exists != null){
+			document.getElementById("contentParagraph4").style.fontSize = "130%"
+		}
+		
+	var element1Exists = document.getElementById("contentParagraph5");
+		if (element1Exists != null){
+			document.getElementById("contentParagraph5").style.fontSize = "130%"
+		}
+		
+	var element1Exists = document.getElementById("contentParagraph6");
+		if (element1Exists != null){
+			document.getElementById("contentParagraph6").style.fontSize = "130%"
 		}
 		
 	var element1Exists = document.getElementById("contentFootnote");
@@ -98,6 +143,21 @@ function increaseFontFunctionToLarge(){
 			document.getElementById("contentParagraph3").style.fontSize = "170%"
 		}
 	
+	var element1Exists = document.getElementById("contentParagraph4");
+		if (element1Exists != null){
+			document.getElementById("contentParagraph4").style.fontSize = "170%"
+		}
+	
+	var element1Exists = document.getElementById("contentParagraph5");
+		if (element1Exists != null){
+			document.getElementById("contentParagraph5").style.fontSize = "170%"
+		}
+	
+	var element1Exists = document.getElementById("contentParagraph6");
+		if (element1Exists != null){
+			document.getElementById("contentParagraph6").style.fontSize = "170%"
+		}
+	
 	var element1Exists = document.getElementById("contentFootnote");
 		if (element1Exists != null){
 			document.getElementById("contentFootnote").style.fontSize = "170%"
@@ -122,6 +182,21 @@ function increaseFontFunctionToMoreLarge(){
 	var element1Exists = document.getElementById("contentParagraph3");
 		if (element1Exists != null){
 			document.getElementById("contentParagraph3").style.fontSize = "200%"
+		}
+		
+	var element1Exists = document.getElementById("contentParagraph4");
+		if (element1Exists != null){
+			document.getElementById("contentParagraph4").style.fontSize = "200%"
+		}
+		
+	var element1Exists = document.getElementById("contentParagraph5");
+		if (element1Exists != null){
+			document.getElementById("contentParagraph5").style.fontSize = "200%"
+		}
+		
+	var element1Exists = document.getElementById("contentParagraph6");
+		if (element1Exists != null){
+			document.getElementById("contentParagraph6").style.fontSize = "200%"
 		}
 		
 	var element1Exists = document.getElementById("contentFootnote");

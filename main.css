@@ -125,15 +125,18 @@
 	padding: 2rem 1.5rem 2rem 1.5rem;
 	overflow: auto;
 	text-align: center;
+	
 }
 
-.OriginalWorksBlock, .TranslationsBlock ul{
+.OriginalWorksBlock ul, .TranslationsBlock ul{
 	color:black;
 	list-style-position:inside;
 	margin: 0 auto;
 	padding: 1rem;
 	text-align:center;
+	list-style-type: none;
 }
+
 
 /*UTTERANC.ES LAYOUT*/
 .utterances{
