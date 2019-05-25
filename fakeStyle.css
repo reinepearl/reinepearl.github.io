@@ -1,10 +1,8 @@
-/*.BigContainer{
-	max-width: 90&;
-}*/
+
 
 .MainTitle{
 	color: black;
-	padding: 5rem; 
+	padding: 4rem; 
 	margin: 0 auto;
 	/*padding needs to be small or dropdowncontent will separate fr dropdown button*/
 }
@@ -68,25 +66,34 @@
 .dropdown:hover .dropdown-content{
 	display:block;
 	margin: 0;
+	z-index:1;
 }
 
 /*BODY*/
 .PageContent{
-	background-color: white;
+	background-color: blue;
 	display: left;
 	font-size: 100%;
 	margin: 0 auto;
 	overflow:auto;
 	text-align:left;
-	padding: 1rem 1rem;
+	padding: calc(100%+1rem);
 }
 
-.PageTitle h3{
-	padding: 0.25rem 0rem 0rem 3rem;
+.PageTitle, .PageBody h3{
+	padding: 0.5rem 0rem .5rem 3rem;
+}
+
+.PageBody img{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 2 rem;
+	height: 80%;
 }
 
 .PageBody p{
-	padding: 0.25rem 0rem 0.25rem 3rem;
+	padding: 0.5rem 0rem 0.5rem 3rem;
 }
 
 .PageBody ul{
@@ -94,6 +101,22 @@
 	list-style-position:inside;
 }
 
+.FontSizeButton, .kaomojiButtons{
+	background-color: rgb(251,251,251);
+	margin: 0.75rem;
+	padding: 0.5rem 1rem;
+	outline: none;
+	border-color: none;
+	display:inline;
+	margin: 2rem 1rem ;
+}
+
+.kaomojiButtonsNumberClicked{
+	border-color: transparent;
+	background-color: transparent;
+	pointer-events: none;
+	display: inline;
+}
 
 .OriginalWorksBlock, .TranslationsBlock{
 	background-color: white;
@@ -102,12 +125,33 @@
 	padding: 2rem 1.5rem 2rem 1.5rem;
 	overflow: auto;
 	text-align: center;
+	
 }
 
-.TranslationsBlock ul{
+.OriginalWorksBlock ul, .TranslationsBlock ul{
 	color:black;
 	list-style-position:inside;
 	margin: 0 auto;
 	padding: 1rem;
 	text-align:center;
+	list-style-type: none;
 }
+
+
+/*UTTERANC.ES LAYOUT*/
+.utterances{
+	color:black;
+}
+
+.utterances-frame{}
+
+/*FOOTER*/
+footer{
+	margin: 1rem;
+	display:inline;
+	
+}
+
+
+
+
